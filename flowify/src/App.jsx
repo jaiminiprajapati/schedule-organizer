@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Feature from './components/ Feature';
+import FeaturedCarousel from './components/FeaturedCarousel';
 import '../node_modules/flowbite/dist/flowbite.css';
 
 
@@ -12,7 +13,9 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      {/* Diğer bileşenleri buraya ekleyebilirsiniz */}
+      <Feature />
+      <FeaturedCarousel />
+      {/* {/} */}
     </div>
   );
 };
