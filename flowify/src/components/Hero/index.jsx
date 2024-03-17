@@ -1,3 +1,6 @@
+import React from 'react';
+import HeroImage from '../../assets/game.png';
+
 const Hero = () => {
   return (
       <section className="bg-heroBackground-color dark:bg-gray-900">
@@ -19,7 +22,7 @@ const Hero = () => {
                       </div>
                   </div>
                   <div className="hidden md:block">
-                      <img src="" alt="Flowify Image" className="w-full h-auto" />
+                      <img src={HeroImage} alt="Flowify Image" className="w-full h-auto" />
                   </div>
               </div>
           </div>
