@@ -7,14 +7,15 @@ import image5 from "../../assets/carousel5.jpeg";
 
 const FeaturedCarousel = () => {
     return (
-        <div className="flex">
+        <div className="py-16 flex">
             {/* text*/}
-            <div className="w-1/3 p-4">
-                <h1 className="text-4xl font-bold" style={{ margin: '20px' }}>Flowify detaily about the app</h1>
+            <div className="w-1/3 text-center p-4"style={{ margin: '80px' }} >
+                <h1 className="text-5xl text-black-500 font-bold" >Flowify detaily about the app</h1>
+                <br/>
                 <p>Flowify is a cutting-edge productivity application designed to streamline your workflow and enhance your efficiency. With its intuitive interface and robust features, Flowify empowers users to manage tasks, projects, and collaborations seamlessly.</p>
             </div>
             {/* Carousel */}
-            <div id="controls-carousel" className="relative w-2/3" data-carousel="static"style={{ margin: '20px' }}>
+            <div id="controls-carousel" className="relative w-2/3" data-carousel="static"style={{ margin: '80px' }}>
                 {/* Carousel wrapper */}
                 <div className="relative h-72 overflow-hidden rounded-lg md:h-90">
                      {/* Item 1 */}
