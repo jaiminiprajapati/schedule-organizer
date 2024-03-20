@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Comment from "./Comment.jsx";
+import Comment from "./comment.jsx";
 import commentsData from './commentData.js';
 
 const ReviewPage = () => {
