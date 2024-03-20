@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Calendar from '../Calendar';
 
 const FeatureSection = () => {
+    
+
     return (
         <section className="py-16 bg-gray-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,7 +40,7 @@ const FeatureSection = () => {
             <div className="flex justify-center mt-8">
             <button className="px-6 py-3 bg-second-color text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300">
                     Get Started
-                </button>
+            </button>
             </div>
         </section>
     );
