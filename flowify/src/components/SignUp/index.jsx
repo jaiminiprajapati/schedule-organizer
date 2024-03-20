@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const SignUp = () => {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
@@ -22,10 +23,10 @@ const SignUp = () => {
 
   return (
     <div>
-      <p className="text-center py-16 text-heroBackground-color font-semibold text-5xl mt-6">Want More flow in you life?</p>
+      <p className="text-center py-16 text-heroBackground-color font-semibold text-5xl mt-6">Want more flow in you life?</p>
       <div className="flex justify-center mt-4">
         <button
-          className="bg-purple-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" style={{ margin: '20px' }}
+          className="bg-second-color hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" style={{ margin: '20px' }}
           onClick={() => setShowModal(true)}
         >
           Sign Up

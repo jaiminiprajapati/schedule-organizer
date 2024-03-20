@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FeatureSection = () => {
     return (
@@ -35,7 +36,7 @@ const FeatureSection = () => {
                 </div>
             </div>
             <div className="flex justify-center mt-8">
-            <button className="px-6 py-3 bg-heroBackground-color text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300">
+            <button className="px-6 py-3 bg-second-color text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300">
                     Get Started
                 </button>
             </div>

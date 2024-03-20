@@ -13,6 +13,7 @@ export default {
         'pText-color': '#927FBF',
         'h1Text-color': '#C4BBF0',
         'heroBackground-color': '#4E364D',
+        'third-color': '#C4C1E0',
       },
     },
   },
