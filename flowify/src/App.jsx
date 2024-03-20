@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Feature from './components/ Feature';
 import FeaturedCarousel from './components/FeaturedCarousel';
 import Comment from './components/Comment';
+import SignUp from './components/SignUp';
+import Footer from './components/Footer';
 import '../node_modules/flowbite/dist/flowbite.css';
 
 
@@ -17,6 +19,8 @@ const App = () => {
       <Feature />
       <FeaturedCarousel />
       <Comment />
+      <SignUp />
+      <Footer />
       {/* {/} */}
     </div>
   );
