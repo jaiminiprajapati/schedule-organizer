@@ -1,9 +1,9 @@
 import React from "react";
 import Image1 from "../../assets/Carousel1.png";
-import Image2 from "../../assets/carousel2.png";
-import image3 from "../../assets/carousel3.webp";
-import image4 from "../../assets/carousel4.png";
-import image5 from "../../assets/carousel5.jpeg";
+import Image2 from "../../assets/Carousel2.png";
+import image3 from "../../assets/Carousel3.webp";
+import image4 from "../../assets/Carousel4.png";
+import image5 from "../../assets/Carousel5.jpeg";
 
 const FeaturedCarousel = () => {
     return (
