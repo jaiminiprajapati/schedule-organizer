@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/flowify_Logo_1.png';
+import Logo from '../../assets/Flowify_Logo_1.png';
 
 
 const Navbar = () => {
