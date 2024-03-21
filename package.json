@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fullcalendar/react": "^6.1.11",
+    "react-modal": "^3.16.1"
+  }
+}
