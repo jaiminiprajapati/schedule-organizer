@@ -18,8 +18,20 @@ Installation
 
 Usage Sign Up/Log In: Start by signing up for a new account or logging in if you already have one.
 
-Create Event: Click on the ‘Add Event’ button and fill in the event details.
+Create Event: Click the ‘Add Event’ button and fill in the event details.
 
 View Events: All your events will be displayed on the main dashboard. You can view event details by clicking on an event.
 
 Edit/Delete Events: You can edit or delete events by clicking on the respective buttons in the event details view.
+
+## Author 
+Aysegul
+Cherelle 
+Jaimini
+
+## Deployed link 
+
+https://flowify.netlify.app/
+
+## License 
+Mit
