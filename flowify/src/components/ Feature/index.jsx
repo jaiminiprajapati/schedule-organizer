@@ -1,12 +1,14 @@
-
 import React, { useState } from 'react'; 
 import Calendar from '../Calendar'; 
 
+// FeatureSection component displays feature blocks and can toggle the display of the Calendar component.
 const FeatureSection = () => {
+    // State to manage the visibility of the Calendar component.
     const [showCalendar, setShowCalendar] = useState(false);
 
+    // Function to toggle the Calendar display on button click.
     const handleGetStarted = () => {
-        setShowCalendar(true); 
+        setShowCalendar(true); // Show the Calendar component.
     };
 
 
@@ -25,18 +27,18 @@ const FeatureSection = () => {
                         </div>
                         {/* Feature 2 */}
                         <div className="flex flex-col items-center">
-                            <svg className="w-12 h-12 text-heroBackground-color" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <rect width="20" height="20" x="2" y="2" rx="10" className="stroke-current" stroke="none" fill="rgba(156, 163, 175, 0.5)"></rect>
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 12l4 4l8-8"></path>
+                        <svg className="w-12 h-12 text-heroBackground-color" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <circle cx="12" cy="12" r="10" className="stroke-current" fill="rgba(156, 163, 175, 0.5)"></circle>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v8m0 0l-3-3m3 3l3-3"></path>
                             </svg>
                             <h3 className="mt-4 text-lg font-bold text-gray-900">Family Flow</h3>
                             <p className="mt-2 text-base text-black-500">Track your family Schdeules all in one place</p>
                         </div>
                         {/* Feature 3 */}
                         <div className="flex flex-col items-center">
-                            <svg className="w-12 h-12 text-heroBackground-color" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <circle cx="12" cy="12" r="10" className="stroke-current" fill="rgba(156, 163, 175, 0.5)"></circle>
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v8m0 0l-3-3m3 3l3-3"></path>
+                        <svg className="w-12 h-12 text-heroBackground-color" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <rect width="20" height="20" x="2" y="2" rx="10" className="stroke-current" stroke="none" fill="rgba(156, 163, 175, 0.5)"></rect>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 12l4 4l8-8"></path>
                             </svg>
                             <h3 className="mt-4 text-lg text-gray-900 font-bold">Work flow</h3>
                             <p className="mt-2 text-base text-black-500">Never be miss aligned with your team again. When working on project you and your team link eahcorther work schedules so that you can  know schedules where and if they are avaibele.</p>
@@ -44,11 +46,11 @@ const FeatureSection = () => {
                     </div>
                 </div>
                 <div className="flex justify-center mt-8">
-                    <button className="px-6 py-3 bg-second-color text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300" onClick={handleGetStarted}>
+                    <button className="px-6 py-3 bg-second-color text-white font-semibold rounded-md shadow-md hover:bg-purple-600 transition duration-300" onClick={handleGetStarted}>
                         Get Started
                     </button>
                 </div>
-                
+                {/* Conditionally render the Calendar component based on the state. */}
                 {showCalendar && <Calendar />}
             </section>
         );
