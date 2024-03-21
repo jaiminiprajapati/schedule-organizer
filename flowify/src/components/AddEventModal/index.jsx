@@ -12,6 +12,7 @@ const AddEventModal = ({ isOpen, onClose, onEventAdded }) => {
         event.preventDefault();
         onEventAdded({ title, start, end });
         onClose();
+
     };
 
     if (!isOpen) return null;
@@ -58,6 +59,7 @@ const AddEventModal = ({ isOpen, onClose, onEventAdded }) => {
                 </div>
             </div>
         </div>
+
     );
 };
 
