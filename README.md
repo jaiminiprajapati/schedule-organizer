@@ -72,7 +72,7 @@ This project is licensed under the MIT License - see the [MIT](MIT) file for det
 ## Acknowledgments
 We would like to extend our heartfelt gratitude to the following individuals for their invaluable contributions to this project:
 
-- [Aysegul ozen](https://github.com/Aysegulozen) - 
+- [Aysegul ozen](https://github.com/Aysegulozen)  
 - [Jaimini Prajapati](https://github.com/jaiminiprajapati) 
 - [Cherelle Molai](https://github.com/cmolai) 
 
